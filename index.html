@@ -172,6 +172,14 @@
       });
     </script>
     <!-- End PostHog Analytics -->
+    <script async defer>
+    (function(){
+      d=document;
+      s=d.createElement("script");
+      s.async=1;
+      d.getElementsByTagName("head")[0].appendChild(s);
+    })();
+  </script>
   </head>
 <body>
 
@@ -338,5 +346,26 @@ document.querySelectorAll('.faq-q').forEach(q => {
   });
 });
 </script>
+
+<!-- Retell AI Chatbot Widget -->
+<script>
+  window.retellConfig = {
+    agentId: "agent_8c560d43782db55affd4b963dc",
+    apiKey: "key_e0f4983b4b0f47e5428fe9f2d35f"
+  };
+</script>
+<script src="https://cdn.jsdelivr.net/npm/retell-client-js-sdk@latest/dist/index.js"></script>
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    if (window.Retell) {
+      window.Retell.initWidget({
+        agentId: window.retellConfig.agentId,
+        apiKey: window.retellConfig.apiKey,
+        position: 'bottom-right'
+      });
+    }
+  });
+</script>
+
 </body>
 </html>
