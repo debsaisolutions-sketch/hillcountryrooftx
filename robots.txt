@@ -1,3 +1,4 @@
 User-agent: *
 Allow: /
-Sitemap: https://hillcountryrooftx.com/sitemap.xml
+
+Sitemap: https://hillcountryroofing.net/sitemap.xml
