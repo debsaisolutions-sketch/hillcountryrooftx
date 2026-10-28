@@ -2,13 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://hillcountryroofing.net/</loc>
-    <lastmod>2026-10-21</lastmod>
+    <lastmod>2026-10-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://hillcountryroofing.net/blog/index.html</loc>
-    <lastmod>2026-10-21</lastmod>
+    <lastmod>2026-10-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
@@ -69,6 +69,12 @@
   <url>
     <loc>https://hillcountryroofing.net/blog/what-should-homeowners-do-when-they-discover-a-roof-leak.html</loc>
     <lastmod>2026-10-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://hillcountryroofing.net/blog/how-can-homeowners-get-accurate-roof-repair-estimates-in-the-hill-country.html</loc>
+    <lastmod>2026-10-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
