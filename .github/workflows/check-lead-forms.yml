@@ -1,0 +1,18 @@
+name: Lead form check
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Reject placeholder forms, fake phones, and missing assets
+        run: python3 scripts/check-forms.py
+      - name: Mocked lead submit (no live request)
+        run: node --test scripts/test-tdp-leads.mjs
